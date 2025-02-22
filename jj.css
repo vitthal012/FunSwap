@@ -79,9 +79,12 @@ button {
 button:active {
     color:red;
 }
+#reveal{
+    animation:time 18s linear;
+}
 @keyframes time{
     0%{
-        transform: translateY(999px);
+        transform: translateY(-999px);
     }
     100%{
         transform: translateY(0px);
