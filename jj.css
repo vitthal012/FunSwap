@@ -80,7 +80,7 @@ button:active {
     color:red;
 }
 #reveal{
-    animation:time 18s linear;
+    animation:time 25s linear;
 }
 @keyframes time{
     0%{
